@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Site title  -->
+    <title>Todo-List Application</title>
+
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- favicon  -->
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+</head>
+
+<body>
+    <h1>📝 Todo List App</h1>
+    <p>Organize your work and life, finally.</p>
+    <div id="container">
+        <div id="inline-container">
+
+            <!-- this is a add task content  -->
+            <input placeholder="Add a task" class="add-task" id="add" data-helloWord="asdasdas" />
+
+            <!-- this is button to add task  -->
+            <button id="btn" class="add-btn">+</button>
+        </div>
+            <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+        <ul id="list">
+
+            <!-- <li>
+          <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+          <label for="task1">Buy groceries</label>
+          <img src="bin.svg" class="delete" data-id="12" />
+        </li> -->
+
+        </ul>
+    </div>
+    <div>
+
+        <!-- footer  -->
+        <footer>
+            <p id="footer">Made by | Krushal Kalkani</p>
+        </footer>
+    </div>
+
+    <!-- javascript file  -->
+    <script src="todo.js"></script>
+</body>
+
+</html>
