@@ -1,5 +1,5 @@
 # Todo list app
-A todo list app
+A todo list app - https://krushaalkalkani.github.io/todolist-app/
 ![TodoList](https://user-images.githubusercontent.com/98822297/209327170-68d2f185-966c-43ff-a92f-bdf21272ad6e.png)
 
 ### General steps to follow when creating a project
